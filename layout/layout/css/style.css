@@ -1,0 +1,162 @@
+*
+{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+.navbar
+{
+     height:60px;
+     width:100%;
+     background-color:black;
+     float: left;
+}
+.logo img
+{
+     height:60px;
+     width:10%;
+     float: left;
+}
+.companyName
+{
+    height:60px;
+    width:90%;
+    float:left;
+}
+.companyName h2
+{
+    text-align:center;
+    line-height:60px;
+    color: white;
+}
+.Homecontainer 
+{
+     height: 80px;
+     width:80%;
+     float: left;
+     padding:20px 0px;
+     margin-top: 1%;
+     margin-left: 10%;
+}
+.imgcontainer
+{
+    height: 400px;
+    width: 80%;
+    border-radius: 20px;
+    margin: auto;
+}
+.imgcontainer img
+{
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+}
+.gallerycontainer
+{
+    height:auto;
+    width: 100%;
+    margin-top:170px;
+}
+.gallerycontainer h2
+{
+    height:auto;
+    width: 80%;
+    margin: auto;
+}
+.images
+{
+    height:350;
+    width: 80%;
+    margin: auto;
+}
+.box1
+{
+    height: 250px;
+    width: 23%;
+    background-color: black;
+    float: left;
+    margin: 50px 1%;
+    border-radius: 30px;
+}
+.box1 img
+{
+    height: 250px;
+    width: 100%;
+    filter: grayscale(100);
+    transition: 0.7s;
+    border-radius: 30px;
+}
+.box1 img:hover
+{
+    filter: grayscale(0);
+}
+.box2
+{
+    height: 250px;
+    width: 23%;
+    background-color: black;
+    float: left;
+    margin: 50px 1%;
+    border-radius: 30px;
+}
+.box2 img
+{
+    height: 250px;
+    width: 100%;
+    filter: grayscale(100);
+    transition: 0.7s;
+    border-radius: 30px;
+}
+.box2 img:hover
+{
+    filter: grayscale(0);
+}
+.box3
+{
+    height: 250px;
+    width: 23%;
+    background-color: black;
+    float: left;
+    margin: 50px 1%;
+    border-radius: 30px;
+}
+.box3 img
+{
+    height: 250px;
+    width: 100%;
+    filter: grayscale(100);
+    transition: 0.7s;
+    border-radius: 30px;
+}
+.box3 img:hover
+{
+    filter: grayscale(0);
+}
+.box4
+{
+    height: 250px;
+    width: 23%;
+    background-color: black;
+    float: left;
+    margin: 50px 1%;
+    border-radius: 30px;
+}
+.box4 img
+{
+    height: 250px;
+    width: 100%;
+    filter: grayscale(100);
+    transition: 0.7s;
+    border-radius: 30px;
+}
+.box4 img:hover
+{
+    filter: grayscale(0);
+}
+
+.foot h2
+{
+    text-align: center;
+    margin-top: 17%;
+    padding: 35px 0px;
+}
