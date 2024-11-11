@@ -1,0 +1,475 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+.navbar
+{
+    width:100%;
+    background-color: black;
+    height:40px;
+}
+.navbarcontainer
+{
+    width:70%;
+    height:40px;
+    margin: auto;
+}
+.navbarcontainer ul
+{
+    height:40px;
+    display:flex;
+   justify-content: end;
+   align-items: center;
+}
+.navbarcontainer ul li
+{
+    list-style: none;
+    padding: 10px;
+}
+
+.navbarcontainer ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.menucontainer
+{
+    width:70%;
+    height:50px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+.logo
+{
+    height:30px;
+    width:10%;
+   
+}
+.logo img
+{
+    width:100%;
+    height:30px;
+    margin:auto;
+}
+.menuitems ul
+{
+    height:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.menuitems ul li a
+{
+    
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.menuitems ul li
+{
+    list-style: none;
+    padding: 10px 10px;
+}
+.imagescontainer
+{
+    height: 350px;
+    width: 70%;
+    margin:auto;
+    border-bottom-left-radius: 10px;
+   
+}
+.imagescontainer img
+{
+    height: 350px;
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    margin:auto;
+}
+h3
+{
+      text-align: center;
+      margin: 20px auto;
+      position: relative;
+      padding-top:20px;
+}
+ h3::after
+ {
+      content: '';
+      border: 1px solid grey;
+      width: 36%;
+      position: absolute;
+      top: 70%;
+      left:6%;
+ }
+ h3::before
+ {
+      content: '';
+      border: 1px solid grey;
+      width: 36%;
+      position: absolute;
+      top: 70%;
+      right:6%;
+ }
+.gallery
+{
+    height:500px;
+    width:70%;
+    margin:auto;
+    position:relative;
+    
+}
+.img1 img
+{
+    height: 240px;
+    width:25%;
+    border-radius: 20px;
+    padding:5px 5px;
+    float: left;
+    position: relative;
+}
+.img2 img
+{
+    height:240px;
+    width:  25%;
+    border-radius: 20px;
+    padding:5px 5px;
+    float: left;
+    position: relative;
+    
+}
+.img3 img
+{
+    height: 240px;
+    width: 25%;
+    border-radius: 20px;
+    padding:5px 5px;
+    float: left;
+    position: relative;
+    
+}
+.img4 img
+{
+    height: 240px;
+    width: 25%;
+    border-radius: 20px;
+    padding:5px 5px;
+    float: left;
+    position: relative;
+}   
+.img5 img
+{
+    height: 240px;
+    width:  25%;
+    border-radius: 20px;
+    padding:5px 5px;
+    float: left;
+    position: relative;
+}
+.img6 img
+{
+    height: 240px;
+    width:  25%;
+    border-radius: 20px;
+    padding:5px 5px;
+    float: left;
+    position: relative;
+}
+.img7 img
+{
+    height:240px;
+    width:  25%;
+    border-radius: 20px;
+    padding:5px 5px;
+    float: left;
+    position: relative;
+}
+.img8 img
+{
+    height: 240px;
+    width:  25%;
+    border-radius: 20px;
+    padding:5px 5px;
+    float: left;
+    position: relative;
+}
+.video  
+{
+    height:1550px;
+    width:90%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+.v1 
+{
+    height: 380px;
+    width:24%;
+    border-radius: 20px;
+}
+.v1 video
+{
+    height: 380px;
+    width:100%;
+    border-radius: 10px;
+}
+.v2
+{
+    height: 380px;
+    width:24%;
+    border-radius: 10px;
+}
+.v2 img
+{
+    height: 380px;
+    width:100%;
+    border-radius: 10px;
+}
+.v3
+{
+    height: 380px;
+    width:24%;
+    border-radius: 10px;
+}
+.v3 img
+{
+    height: 380px;
+    width:100%;
+    border-radius: 10px;
+}
+.v4
+{
+    height: 380px;
+    width:24%;
+    border-radius: 10px;
+   
+}
+.v4 video
+{
+    height: 380px;
+    width:100%;
+    border-radius: 10px;
+  
+}
+.v5
+{
+    height: 380px;
+    width:24%;
+    border-radius: 10px;
+
+}
+.v5 video
+{
+    height: 380px;
+    width:100%;
+    border-radius: 10px;
+
+}
+.v6
+{
+    height: 380px;
+    width:24%;
+    border-radius: 10px;
+   
+}
+.v6 video
+{
+    height: 380px;
+    width:100%;
+    border-radius: 10px;
+   
+}
+.v7
+{
+    height: 380px;
+    width:24%;
+    border-radius: 10px;
+
+}
+.v7 video
+{
+    height: 380px;
+    width:100%;
+    border-radius: 10px;
+    
+}
+.v8
+{
+    height: 380px;
+    width:24%;
+    border-radius: 10px;
+ 
+}
+.v8 img
+{
+    height: 380px;
+    width:100%;
+    border-radius: 10px;
+  
+}
+.v9
+{
+    height: 380px;
+    width:24%;
+    border-radius: 10px;
+
+}
+.v9 img
+{
+    height: 380px;
+    width:100%;
+    border-radius: 10px;
+   
+}
+
+.v10
+{
+    height: 380px;
+    width:24%;
+    border-radius: 10px;
+
+}
+.v10 img
+{
+    height: 380px;
+    width:100%;
+    border-radius: 10px;
+   
+}
+.v11
+{
+    height: 380px;
+    width:24%;
+    border-radius: 10px;
+  
+}
+.v11 video
+{
+    height: 380px;
+    width:100%;
+    border-radius: 10px;
+  
+}
+.v12
+{
+    height: 380px;
+    width:24%;
+    border-radius: 10px;
+  
+}
+.v12 video
+{
+    height: 380px;
+    width:100%;
+    border-radius: 10px;
+   
+}
+.bottom
+{
+    height: 250px;
+    width: 100%;
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.p1
+{
+    height: 250px;
+    width: 20%;
+}
+.p1 b
+{
+    font-size: 18px;
+    position: relative;
+    top: 35px;
+    font-family: arial;
+    display: flex;
+    justify-content: start;
+}
+.p1 p
+{
+    position: relative;
+    top: 55px;
+    padding: 6px;
+    font-family: arial;
+    font-size: 15px;
+    display: flex;
+    justify-content: start;
+}
+.p2
+{
+    height: 250px;
+    width: 20%;
+}
+.p2 b
+{
+    font-size: 18px;
+    position: relative;
+    top: 35px;
+    font-family: arial;
+    display: flex;
+    justify-content: start;
+}
+.p2 p
+{
+    position: relative;
+    top: 55px;
+    padding: 6px;
+    font-family: arial;
+    font-size: 15px;
+    display: flex;
+    justify-content: start;
+}
+.p3
+{
+    height: 250px;
+    width: 20%;
+}
+.p3 b
+{
+    font-size: 18px;
+    position: relative;
+    top: 35px;
+    font-family: arial;
+    display: flex;
+    justify-content: start;
+}
+.p3 p
+{
+    position: relative;
+    top: 55px;
+    padding: 6px;
+    font-family: arial;
+    font-size: 15px;
+    display: flex;
+    justify-content: start;
+}
+.p4
+{
+    height: 250px;
+    width: 20%;
+}
+.p4 b
+{
+    font-size: 18px;
+    position: relative;
+    top: 35px;
+    font-family: arial;
+    display: flex;
+    justify-content: start;
+}
+.p4 p
+{
+    position: relative;
+    top: 55px;
+    padding: 6px;
+    font-family: arial;
+    font-size: 15px;
+    display: flex;
+    justify-content: start;
+}
