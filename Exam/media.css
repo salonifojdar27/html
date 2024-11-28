@@ -1,0 +1,22 @@
+/* mobile */
+@media(min-width:320px) and (max-width:480px)
+{
+    .menubar
+    {
+         height: 70px;
+         width: 60%;
+         padding: 20px;
+         /* background-color:pink; */
+    }
+     .menubar ul
+{
+    display: flex;
+    text-align: center;
+}
+.menubar ul li
+{
+    list-style: none;
+    padding: 30px;
+    font-size: 20px;
+}
+}

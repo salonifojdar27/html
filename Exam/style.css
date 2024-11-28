@@ -1,0 +1,171 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.heading
+{
+    height: 50px;
+    width: 100%;
+    padding: 20px ;
+    position: relative;
+    top:10px; 
+  
+    /* background-color: aqua; */
+}
+.menubar
+{
+     height: 70px;
+     width: 60%;
+     padding: 20px;
+     /* background-color:pink; */
+}
+.menubar ul
+{
+    display: flex;
+    text-align: center;
+}
+.menubar ul li
+{
+    list-style: none;
+    padding: 30px;
+    font-size: 20px;
+}
+li::after
+{
+    content:'';
+    display: block;
+    margin: auto;
+    width: 0%;   
+    border:1px solid black;
+    transition: 0.7s;
+}
+li:hover::after
+{
+    width:90%;
+    margin-top: 5px;
+}
+.box
+{
+    height: 650px;
+    width: 70%;
+    /* background-color: pink; */
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 30px;
+}
+ .box1
+{
+    height: 280px;
+    width: 25%;
+    /* background-color: aqua; */
+    border-radius: 20px;
+    padding: 20px;
+}
+.box1 img
+{
+    height: 280px;
+    width: 100%;
+    border-radius: 20px;
+}
+.box2
+{
+    height: 280px;
+    width: 25%;
+    /* background-color: yellow; */
+    border-radius: 20px;
+    padding: 20px;
+}
+.box2 img
+{
+    height: 280px;
+    width: 100%;
+    border-radius: 20px;
+}
+.box3
+{
+    height: 280px;
+    width: 25%;
+    /* background-color:blue; */
+    border-radius: 20px;
+    padding: 20px;
+}
+.box3 img
+{
+    height: 280px;
+    width: 100%;
+    border-radius: 20px;
+}
+.box4
+{
+    height: 280px;
+    width: 25%;
+    /* background-color:green; */
+    border-radius: 20px;
+    padding: 20px;
+}
+.box4 img
+{
+    height: 280px;
+    width: 100%;
+    border-radius: 20px;
+}
+.box5
+{
+    height: 280px;
+    width: 25%;
+    /* background-color:lightblue; */
+    border-radius: 20px;
+    padding: 20px;
+}
+.box5 img
+{
+    height: 280px;
+    width: 100%;
+    border-radius: 20px;
+}
+.box6
+{
+    height: 280px;
+    width: 25%;
+    /* background-color:blueviolet; */
+    border-radius: 20px;
+    padding: 20px;
+}
+.box6 img
+{
+    height: 280px;
+    width: 100%;
+    border-radius: 20px;
+}
+.box7
+{
+    height: 280px;
+    width: 25%;
+    /* background-color:purple; */
+    border-radius: 20px;
+    padding: 20px;
+}
+.box7 img
+{
+    height: 280px;
+    width: 100%;
+    border-radius: 20px;
+}
+.box8
+{
+    height: 280px;
+    width: 25%;
+    /* background-color:black; */
+    border-radius: 20px;
+    padding: 20px;
+}
+.box8 img
+{
+    height: 280px;
+    width: 100%;
+    border-radius: 20px;
+    
+}
